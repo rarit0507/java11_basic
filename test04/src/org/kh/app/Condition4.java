@@ -75,6 +75,43 @@ public class Condition4 {
 		}
 		*/
 		
+		if((point%10>=7 && point%10<=9 && point>=60) || point==100) {
+			result = "+";
+			if(point>=90) {
+				result = "A"+result;
+			} else if(point>=80) {
+				result = "B"+result;
+			} else if(point>=70) {
+				result = "C"+result;
+			} else {
+				result = "D"+result;
+			}	
+		} else if(point%10>=3 && point%10<=6 && point>=60) {
+			result = "0";
+			if(point>=90) {
+				result = "A"+result;
+			} else if(point>=80) {
+				result = "B"+result;
+			} else if(point>=70) {
+				result = "C"+result;
+			} else {
+				result = "D"+result;
+			}	
+		} else if(point%10>=0 && point%10<=2 && point>=60) {
+			result = "-";
+			if(point>=90) {
+				result = "A"+result;
+			} else if(point>=80) {
+				result = "B"+result;
+			} else if(point>=70) {
+				result = "C"+result;
+			} else {
+				result = "D"+result;
+			}
+		} else {
+			result = "F";
+		}
+		
 		//switch case
 		String remark = "";
 		switch(result) {
