@@ -4,5 +4,5 @@
 /**
  * 
  */
-module org.kh.site2 {
+module test04 {
 }
