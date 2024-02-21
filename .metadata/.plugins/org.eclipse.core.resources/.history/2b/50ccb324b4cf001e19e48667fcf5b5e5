@@ -1,0 +1,15 @@
+package org.kh.java;
+
+public class Variable8 {
+
+	public static void main(String[] args) {
+		var num1 = 29.456;	//float/double
+		var num2 = 34;		//int
+		var num3 = 'k';
+		var num4 = "Keanu";
+		var num5 = true;
+		num1 = 67;
+		//가변 할당(=동적 할당) java 10부터 됨. 자료형 왔다갔다
+	}
+
+}

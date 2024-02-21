@@ -1,0 +1,9 @@
+package org.kh.site;
+//산술 연산(Arithmetic) <=> 논리 연산(Logical)
+public class Operation2 {
+
+	public static void main(String[] args) {
+		// +, -, *, /, %
+	}
+
+}

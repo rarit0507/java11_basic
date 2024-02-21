@@ -1,0 +1,19 @@
+package org.kh.site2;
+//논리 연산자
+public class Operation6 {
+
+	public static void main(String[] args) {
+
+		// &&(and), ||(or), !(not)
+		
+		int a = 26;
+		int b = 28;
+		int c = 27;
+		System.out.println("a > b && a > c : " + (a > b && a > c));		//false && false => false
+		System.out.println("a > b && b > c : " + (a > b && b > c));		//false && true => false
+		System.out.println("a < b && b < c : " + (a < b && b < c));		//true && false => false
+		System.out.println("a < b && b > c : " + (a < b && b > c));		//true && true	 => true
+		
+	}
+
+}

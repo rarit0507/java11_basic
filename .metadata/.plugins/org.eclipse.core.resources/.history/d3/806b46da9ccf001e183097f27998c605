@@ -1,0 +1,20 @@
+package org.kh.java;
+
+public class Variavle3 {
+
+	public static void main(String[] args) {
+		int bin = 0b10111;	//0b : 2진수 데이터 입력(해당 숫자 앞에 붙임)
+		System.out.println("bin=" + bin);	//23
+		
+		int oct = 03647;	//0 : 8진수 데이터 입력(해당 숫자 앞에 붙임)
+		System.out.println("oct=" + oct); 
+		
+		int dec = 3650;	//X : 10진수 데이터 입력(해당 숫자 앞에 붙임)
+		System.out.println("dec=" + dec); 
+		
+		int hex = 0x2c8;	//0x : 12진수 데이터 입력(해당 숫자 앞에 붙임)
+		System.out.println("hex=" + hex); 
+		
+	}
+
+}

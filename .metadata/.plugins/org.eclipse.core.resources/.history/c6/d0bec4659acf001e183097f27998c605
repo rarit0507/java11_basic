@@ -1,0 +1,16 @@
+package org.kh.java;
+
+public class Variable2 {
+
+	public static void main(String[] args) {
+		byte b =10;
+		short s = 20;
+		int i; //선언만 함('나 이렇게 쓸거야' / 값은 지금 안 알려줌(주소없음))
+		long l;
+		System.out.println("b=" + b);
+		System.out.println("s=" + s);
+		System.out.println("i=" + i);
+		System.out.println("l=" + l);	//에러 발생(by 값이 없음 == null => >>>null pointer 오류<<<)
+	}
+
+}
