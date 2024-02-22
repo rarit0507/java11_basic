@@ -63,16 +63,6 @@ public class Condition4 {
 		
 		///////////////////////////////////////
 		/*묶어서 만들어보기(+0- 조건 앞으로 빼서)
-		if(point>=90) {
-			result = "A";
-		if((point%10>=7 && point%10<=9) || point==100) {
-			result = result + "+";
-		} else if (point%10>=3 && point%10<=6) {
-			result = result + "0";
-		} else {
-			result = result + "-";
-			}
-		}
 		*/
 		
 		if((point%10>=7 && point%10<=9 && point>=60) || point==100) {
