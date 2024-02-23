@@ -23,7 +23,7 @@ public class practice {
 		
 		System.out.println("================");
 		//3
-		for(int i=0;i<=6;i++) {
+		for(int i=1;i<=6;i++) {
 			for(int j=6;j>i;j--) {
 				System.out.print("*");
 			}
@@ -43,7 +43,7 @@ public class practice {
 		}
 		System.out.println("================");
 		//5
-		for(int i=0;i<=6;i++) {
+		for(int i=1;i<=6;i++) {
 			for(int j=6;j>i;j--) {
 				System.out.print(" ");
 			}
