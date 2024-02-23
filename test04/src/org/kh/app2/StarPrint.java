@@ -71,6 +71,28 @@ public class StarPrint {
 			}
 			System.out.println();
 		}
+		
+		/*
+		    *
+		   ***
+		  *****
+		 *******
+		
+		 */
+		for(int i=0;i<4;i++) {
+			for(int j=3;j>0;j--) {
+				System.out.printf(" ");
+			}
+			for(int j=0;j<7;j++) {
+				if(j%2==0) {
+					continue;
+				} else {
+					System.out.println("*");
+				}
+			}
+		}
+		
+		
 	}
 
 }

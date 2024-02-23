@@ -22,6 +22,8 @@ public class Overloadex3 {
 		Notice n1 = new Notice(101, "주말 자바 코딩", "rarit0507", "주말에 공부하세요", "2024.02.23", 20240220);
 		Notice n2 = new Notice(102, "집좀보내줘", "와난", "집이없어요", "2023.04.22", 20240215);
 		
+		News ne1 = new News();
+		
 		System.out.println(n1.toString());
 		System.out.println(n2.toString());
 		System.out.println(b1.toString());
@@ -29,6 +31,7 @@ public class Overloadex3 {
 		System.out.println(b3.toString());
 		System.out.println(b4.toString());
 		System.out.println(b5.toString());
+		System.out.println(ne1.toString());
 		
 	}
 
