@@ -14,7 +14,7 @@ public class Board {
 	/* 멤버 필드값을 적용하여 객체를 만들게 됨 */
 	
 	//생성자자동생성(우클-source-constructor)-만들고 super지우기
-	public Board() {}	//(1)
+	public Board() { }	//(1)
 	public Board(int bno) {		//(2)객체 생성 시에 값을 넣어버림
 		this.bno = bno;
 	}

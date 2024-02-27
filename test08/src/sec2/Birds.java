@@ -1,8 +1,9 @@
-package sec1;
+package sec2;
 
 public class Birds extends Animal {
-	private int wings;
-	private boolean fly;
+	int wings;		//default
+	boolean fly;
+	
 	//gettersetter
 	public int getWings() {
 		return wings;
@@ -20,6 +21,7 @@ public class Birds extends Animal {
 	}
 	@Override
 	public String toString() {
-		return "Birds [wings=" + wings +"], name["+super.getName()+"]";
+		return "Birds [wings=" + wings +"], name["+super.name+"]";
+		//★★★변수가 private이 아니면 super.name 가능!!!!!!!
 	}
 }

@@ -1,8 +1,9 @@
-package sec1;
+package sec2;
 
 public class Animal {
-	private String name;
-	private boolean spine;
+	String name;	//직접 접근을 위해서는 default, protected, public
+	boolean spine;
+	
 	//gettersetter
 	public String getName() {
 		return name;

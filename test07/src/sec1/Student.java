@@ -6,7 +6,7 @@ public class Student {
 	private int kor;
 	private int eng;
 	private int mat;
-	public Student() { }	//??
+	public Student() { }	//디폴트생성자(생성자 입력 없을 시 자동생성)
 	public Student(int no, int kor, int eng, int mat) {
 		this.no = no;
 		this.kor = kor;
