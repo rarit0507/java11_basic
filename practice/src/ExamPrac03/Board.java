@@ -1,4 +1,4 @@
-package minitest3;
+package ExamPrac03;
 
 public class Board {
 
