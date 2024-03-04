@@ -8,27 +8,26 @@ public class Product {
 	private int amount;
 	private String remark;
 	
-	//★메소드 오버로딩(Method Overload)★//
-	public void print() {				//메서드는 매개변수의 타입/개수 따라 메소드 여러개 기술 가능(!=override오버라이드(상속))
-		System.out.println("제품정보");	//★★(다형성)
+	/* 메소드 오버로딩(Method Overload) */
+	public void print() {
+		System.out.println("제품정보");
 	}
 	public void print(String pname) {
-		System.out.println("제품이름 : " + pname);
+		System.out.println("제품이름 : "+pname);
 	}
 	public void print(int amount) {
-		System.out.println("제품수량 : " + amount);
+		System.out.println("제품수량 : "+amount);
 	}
 	public void print(String pname, int amount) {
-		System.out.println("제품이름 : " + pname);
-		System.out.println("제품수량 : " + amount);
+		System.out.println("제품이름 : "+pname);
+		System.out.println("제품수량 : "+amount);
 	}
 	public void print(int amount, String pname) {
-		System.out.println("제품이름 : " + pname);
-		System.out.println("제품수량 : " + amount);
+		System.out.println("제품이름 : "+pname);
+		System.out.println("제품수량 : "+amount);
 	}
 	
 	
-	//gettersetter
 	public String getPname() {
 		return pname;
 	}
@@ -65,12 +64,9 @@ public class Product {
 	public void setRemark(String remark) {
 		this.remark = remark;
 	}
-	
-	//generate toString()
 	@Override
 	public String toString() {
 		return "Product [pname=" + pname + ", pcode=" + pcode + ", price=" + price + ", size=" + size + ", amount="
 				+ amount + ", remark=" + remark + "]";
 	}
-	
 }

@@ -1,7 +1,7 @@
 package exam;
 
 public class Exam2 {
-//구구단 짝수단만 출력
+//Q2. 구구단 짝수단만 출력
 	public static void main(String[] args) {
 		//
 		for(int i=2;i<=9;i++) {

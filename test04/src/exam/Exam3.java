@@ -1,5 +1,5 @@
 package exam;
-//구구단을 단보다 곱하는수가 작거나 같은 경우만 출력
+//Q3. 구구단을 단보다 곱하는수가 작거나 같은 경우만 출력
 public class Exam3 {
 
 	public static void main(String[] args) {

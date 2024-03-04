@@ -1,5 +1,7 @@
 package exam;
 //교재 p.123
+//Q1. operator 값이 +, -, *, / 인 경우에 사칙 연산을 수행하는 프로그램을 if~else if문과
+//switch~case~문을 사용해 작성해보세요
 public class Exam1 {
 
 	public static void main(String[] args) {

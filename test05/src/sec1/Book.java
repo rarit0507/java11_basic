@@ -6,16 +6,25 @@ public class Book {
 	private int price;
 	private String author;
 	private String pub;
-	
-	//gettersetter
-	
-	@Override
-	public String toString() {
-		return "Book [bno=" + bno + ", bname=" + bname + ", price=" + price + ", author=" + author + ", pub=" + pub
-				+ "]";
+	//교재명(bname), 가격(price), 저자(author)
+	public void print() {
+		System.out.println("교재 정보");
 	}
-	
-	
+	public void print(String bname) { 
+		System.out.println("교재명 : "+bname);
+	}
+	public void print(int price) { 
+		System.out.println("교재가격 : "+price);
+	}	
+	public void print(String bname, int price) { 
+		System.out.println("교재명 : "+bname);
+		System.out.println("교재가격 : "+price);
+	}	
+	public void print(String bname, int price, String author) { 
+		System.out.println("교재명 : "+bname);
+		System.out.println("교재가격 : "+price);
+		System.out.println("저자 : "+author+"\n");
+	}	
 	public int getBno() {
 		return bno;
 	}
@@ -47,21 +56,10 @@ public class Book {
 		this.pub = pub;
 	}
 	
-	//오버로드에서 변수형마다 개수 같은 건 하나만 만들 수 있음
-	//ex. String bname 만들고 String author 만들기 불가(String1개짜리)
-	//but String bname, String author 가능(String2개)
-	public void print() {
-		System.out.println("교재 정보");
+	@Override
+	public String toString() {
+		return "Book [bno=" + bno + ", bname=" + bname + ", price=" + price + ", author=" + author + ", pub=" + pub
+				+ "]";
 	}
-	public void print(String bname) {
-		System.out.println("교재명 : bname");
-	}
-	public void print(int price) {
-		System.out.println("교재가격 : price");
-	}
-	public void print(String bname, int price, String author) {
-		System.out.println("교재명 : "+ bname);
-		System.out.println("교재가격 : "+ price);
-		System.out.println("교재저자 : " + author);
-	}
+	
 }
