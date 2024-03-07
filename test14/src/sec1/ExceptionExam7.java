@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 //
 public class ExceptionExam7 {
 	public static void main(String[] args) {
-		FileInputStream fis = null;		//파일입력(내용읽기)
+		FileInputStream fis = null;		//파일입력(=가져오기, 내용읽기)
 		FileOutputStream ois = null;	//파일 출력(내용저장)
 		
 		try {
