@@ -8,15 +8,13 @@ import java.io.IOException;
 public class FileReaderExam {
 	public static void main(String[] args) throws IOException {
 		File file = new File("d.txt");
-		if(file.exists()) {	//파일이 존재하면
+		if(file.exists()) {
 			BufferedReader fr = new BufferedReader(new FileReader(file));
 			String line = null;
 			while((line = fr.readLine()) != null) {
-				System.out.println(line);	
+				System.out.println(line);
 			}
 			fr.close();
 		}
-		
 	}
-
 }
