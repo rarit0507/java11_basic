@@ -1,4 +1,4 @@
-package ExamPrac03;
+package examPrac03;
 
 public class BoardExam {
 
