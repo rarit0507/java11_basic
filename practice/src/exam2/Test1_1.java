@@ -18,14 +18,19 @@ public class Test1_1 {
 		System.out.println("ip 입력 : ");
 		String ip = sc.next();
 		
-		for(int i=0; i<ipInfoList.size(); i++) {
-			//if(ipInfoList.get(i) == ip)
-			if(ipInfoList.get(i).getIp().equals(ip)) { 	//ip끼리 비교해야 하므로 ipInfoList.get(i)에 대해 .getIp() 사용. 문자열 비교는 .equals()
-				System.out.println(ipInfoList.get(i).toString());
+		boolean found = false;	//일치하는 IP를 찾았는지 여부를 확인하기 위한 변수
+		
+		for(IPInfo ipInfo : ipInfoList) {
+			if (ipInfo.getIp().equals(ip)) {
+				System.out.println(ipInfo.toString());
+				found = true;
 				break;
-			} else {	//else문 추가, 아래 있던 sysout을 여기에 써야 함
-				System.out.println("일치하는 ip 사용자가 없습니다.");
 			}
 		}
+		
+		if(!found) {
+			System.out.println("일치하는 ip 사용자가 없습니다.");
+		}
+		
 	}
 }
