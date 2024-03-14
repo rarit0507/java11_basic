@@ -4,7 +4,7 @@ package exam2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class test4 {
+public class testprac {
 
 	public static void main(String[] args) {
 		String names = "김기태 이순신 강감찬 고주몽 부여온조";	//문자열
