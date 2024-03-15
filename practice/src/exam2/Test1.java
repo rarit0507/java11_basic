@@ -19,7 +19,7 @@ public class Test1 {
 		String ip = sc.next();
 		
 		for(int i=0; i<ipInfoList.size(); i++) {
-			boolean b = true;
+			boolean b = false;
 			if(ipInfoList.get(i).getIp().equals(ip)) {	//객체 대 ip(String) 비교 불가. ipInfoList.get(i)는 특정 번째의 IPInfo 클래스의 객체이고, ip는 String 변수이므로, 
 			//.getIp()로 ip주소를 가져오고, String 비교를 위해 .equals() 메서드 사용
 				System.out.println(ipInfoList.get(i).toString());	//안 써도 되나 toString()이 더 정확
@@ -28,7 +28,7 @@ public class Test1 {
 				System.out.println("일치하는 ip 사용자가 없습니다.");
 			} */
 			}
-			if(b!=true) {
+			if(b!=false) {
 				System.out.println("일치하는 ip 사용자가 없습니다.");
 			}
 		}	
